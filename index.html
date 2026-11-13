@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museu Virtual del Catalanisme — Inici</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <header class="capcalera">
+        <div class="contenidor-header">
+            <a href="index.html" class="logo">Museu del Catalanisme</a>
+
+            <button class="boto-menu" type="button" id="boto-menu" aria-label="Obrir menú">
+                &#9776;
+            </button>
+
+            <nav class="navegacio" id="navegacio">
+                <ul>
+                    <li><a href="pages/cronologia.html">1. Cronologia</a></li>
+                    <li><a href="pages/cartellisme.html">2. Cartellisme</a></li>
+                    <li><a href="pages/simbols.html">3. Símbols</a></li>
+                    <li><a href="pages/figures.html">4. Figures</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-vestibul">
+        <div class="overlay-hero">
+            <div class="contingut-hero">
+                <span class="etiqueta-museu">Exposició Permanent</span>
+                <h1>Història, Cultura i Sobirania</h1>
+                <p>Un recorregut visual des dels orígens de la Renaixença del segle XIX fins al moviment independentista contemporani.</p>
+                <a href="#sales" class="boto-principal">Explorar les Sales</a>
+            </div>
+        </div>
+    </section>
+
+    <main id="sales" class="contingut-principal">
+        <div class="capcalera-seccio">
+            <h2>Sales d'Exposició</h2>
+            <p>Selecciona un àmbit temàtic per iniciar la visita.</p>
+        </div>
+
+        <div class="graella-vestibul">
+
+            <a href="pages/cronologia.html" class="targeta-sala">
+                <div class="imatge-sala sala-cronologia">
+                    <span class="numero-sala">Sala I</span>
+                </div>
+                <div class="info-sala">
+                    <h3>Línia del Temps</h3>
+                    <p>De les Bases de Manresa i la Mancomunitat fins a la Generalitat actual i l'1 d'octubre.</p>
+                    <span class="enllac-fictici">Entrar a la sala &rarr;</span>
+                </div>
+            </a>
+
+            <a href="pages/cartellisme.html" class="targeta-sala">
+                <div class="imatge-sala sala-cartellisme">
+                    <span class="numero-sala">Sala II</span>
+                </div>
+                <div class="info-sala">
+                    <h3>Cartellisme i Premsa</h3>
+                    <p>L'evolució de la gràfica política, les revistes satíriques com <em>Cu-Cut!</em> i els cartells dels anys 30.</p>
+                    <span class="enllac-fictici">Entrar a la sala &rarr;</span>
+                </div>
+            </a>
+
+            <a href="pages/simbols.html" class="targeta-sala">
+                <div class="imatge-sala sala-simbols">
+                    <span class="numero-sala">Sala III</span>
+                </div>
+                <div class="info-sala">
+                    <h3>Símbols i Institucions</h3>
+                    <p>L'origen heràldic de les quatre barres, el naixement de l'estelada i les institucions d'autogovern.</p>
+                    <span class="enllac-fictici">Entrar a la sala &rarr;</span>
+                </div>
+            </a>
+
+            <a href="pages/figures.html" class="targeta-sala">
+                <div class="imatge-sala sala-figures">
+                    <span class="numero-sala">Sala IV</span>
+                </div>
+                <div class="info-sala">
+                    <h3>Veus i Pensament</h3>
+                    <p>Els textos i les idees de Valentí Almirall, Prat de la Riba, Francesc Macià i altres referents.</p>
+                    <span class="enllac-fictici">Entrar a la sala &rarr;</span>
+                </div>
+            </a>
+
+        </div>
+    </main>
+
+    <footer class="peu-pagina">
+        <div class="contenidor-footer">
+            <p>&copy; <span id="any-actual"></span> Museu Virtual del Catalanisme.</p>
+            <ul class="enllacos-legals">
+                <li><a href="index.html">Inici</a></li>
+                <li><a href="pages/cronologia.html">Cronologia</a></li>
+                <li><a href="pages/cartellisme.html">Arxiu Gràfic</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
